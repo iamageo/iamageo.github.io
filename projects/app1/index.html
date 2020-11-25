@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- Font Awesome CSS -->
+    <script src="https://kit.fontawesome.com/4c709f1b9e.js" crossorigin="anonymous"></script>
+  
+    <title>Project app</title>
+    
+    <!--importando favicon-->
+    <link rel="icon" href="./img/icon.svg">
+  </head>
+
+  <body>
+    <header> <!-- inicio do cabeçalho-->
+      <nav class="navbar navbar-expand-md navbar-light background-topo">
+          <div class="container">  <!-- container do cabeçalho -->
+            <a href="iamageo.github.io" class="navbar-brand color-menu"><img src="/img/logo.png" alt="" width="142">Back to iamageo site</a>
+            
+            
+            </div>  <!-- fim da opções do menu -->
+         
+          </div> <!-- fim do container -->
+      </nav>
+    </header> <!-- fim do cabeçalho-->
+
+    <section id="home" class="d-flex "> <!-- inicio da seção -->
+      <div class="container">
+        <div class="row">
+
+          <div class="col-md-8 d-flex"> <!-- texto da seção -->
+            <div class="align-self-center">
+              <h1 class="display-8" id="msginicial">App para cálculo de nota do Enem, simples e fácil.</h1>
+              <p> </p>
+              <p>Disponível para 
+                <a href="" class="btn btn-outline-light  ml-2">
+                  <i class="fab fa-android fa-lg"></i>
+                </a>
+               
+              </p>
+            </div>
+
+          </div> <!-- fim do texto da seção -->
+
+          <div class="col-md-4 d-none d-md-block rotacionar">
+            <img src="./img/android1.png" class="img-fluid">
+          </div>
+          
+        </div>
+
+      </div>
+
+    </section> <!-- fim da seção -->
+
+    <section class="caixa"> <!-- inicio da seção saiba -->
+      <div class="container">
+        <div class="row">
+          
+          <div class="col-md-6">
+            <img src="./img/android-2.png" class="img-fluid">
+          </div>
+
+          <div class="col-md-6 d-flex">
+            <div class="align-self-center">
+              <h2>Uma aplicação completa</h2>
+              <h3>Totalmente feita em Java</h3>
+              <p>Salve, faça cálculo de maneira simples, sem peso, e também faça cálculos com pesos.</p>
+            
+              <a href="" class="btn btn-primary">View code on Github</a>
+            </div>
+           
+        </div>
+
+
+        </div>
+      </div>
+    </section> <!-- fim da seção -->
+
+    <footer class="mt-2 mb-2">
+      <div class="container centralizar">
+        <div class="row">
+          <div class="col-md-12">
+            Geovani Amaral.
+           
+          </div> 
+        </div>
+      </div>
+    </footer>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+     <!-- animação de maquina de digitar-->
+    <script>
+
+      function typeWrite(elemento) {
+      const textoArray = elemento.innerHTML.split(''); 
+      elemento.innerHTML = '';
+      textoArray.forEach((letra, i) => {
+          setTimeout(function() {
+            elemento.innerHTML += letra
+          }, 75 * i)
+        }); 
+      }
+
+      const titulo = document.getElementById('msginicial')
+      typeWrite(titulo);
+
+    </script>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

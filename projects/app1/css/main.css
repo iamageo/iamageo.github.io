@@ -1,0 +1,68 @@
+body, html {
+    height: 100%;
+} 
+
+#home {
+    background: #393d42;
+    color: white;
+}
+
+.background-topo{
+    background: black;
+}
+
+.caixa {
+    padding: 60px 0px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.centralizar {
+    text-align: center;
+}
+
+.rotacionar {
+    -ms-transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    transform: rotate(30deg);
+    padding-left: 10px;
+}
+
+.rotacionar1 {
+    -ms-transform: rotate(-30deg);
+    -webkit-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    padding-right: 20px;
+}
+
+.navbar .color-menu {
+    color: white;
+
+}
+
+h1::after{
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: pisca .7s infinite;
+}
+
+@keyframes pisca {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    
+}
+
+/* footer */
+footer {
+    background: #000;
+    padding: 50px 0px 20px 0px;
+    position: relative;
+}
+
+footer {
+    color: #e674ce;
+}
