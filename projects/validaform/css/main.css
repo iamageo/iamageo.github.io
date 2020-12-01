@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    width: 100%;
+}
+
+/* screen inteira */
+.screen {
+    display: flex;
+    height: 95vh;
+}
+
+/* classes para formulário, lado esquerdo */
+.leftside{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftside img {
+    max-width: 500px;
+    height: auto;
+    padding: 10px;
+}
+
+/* classes para formulário, lado direito */
+
+.rightside{
+    width: 400px;
+    background-color: #e6e6e6;
+    padding: 50px;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.rightside label {
+    display: block;
+    margin-bottom: 20px;
+ 
+}
+
+.rightside input {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 8px;
+    font-size: 15px;
+    outline: 0;
+    width: 95%;
+}
+
+.rightside a {
+   text-decoration: none;
+   color: #000;
+}
+
+.rightside a:hover {
+    color: #6c63fe;
+ }
+
+.btn {
+    color: #fff;
+    background-color: #000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+
+.btn:hover {
+    color: #000;
+    background-color: #6c63fe;
+    
+}
+
+/* classe para erros nos formulários */
+.error {
+    font-size: 11px;
+    background-color: #FF0000;
+    color: #fff;
+    padding: 4px;
+    border-radius: 5px;
+}
+
+
+/* rodapé */
+footer {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    text-align: center;
+    padding: 20px;
+    background-color: #000;
+    color: #fff;
+    position: relative;
+}
